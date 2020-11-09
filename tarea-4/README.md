@@ -1,2 +1,2 @@
 Para correr los programas es necesario extraer la carpeta de hashcat y meter todos los archivos y carpetas ahí :B
-Primero se corre tarea4-server.py y luego tarea4-client.py
+Primero se corre tarea4-server.py y luego tarea4-client.py. En "ARCHIVOS SALIDA" se pueden ver los .txt y la base de datos resultante del último testeo (que tardó aproximadamente 6 horas), archivos "out" son las contraseñas deshasheadas, archivos "archivo-de-t" son los tiempos que tardaron en deshashearse, archivos "hashed" son los hasheados en nuevo algoritmo, "hashed_t" el tiempo total en hashear todo, archivos myKey corresponden a las 2 llaves, "encrypt" y "decrypt" los que enviaron el cliente y el servidor con el algoritmo NTRU, "dec.db" es la base de datos.
