@@ -1,11 +1,8 @@
 # SERVIDOR
 from time import *
 import os
-import secrets, hashlib, binascii
 import socket
 import sys
-import subprocess
-import hashlib
 import socket
 import sqlite3
 

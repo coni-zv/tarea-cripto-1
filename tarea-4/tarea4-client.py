@@ -5,10 +5,9 @@
 
 from time import *
 import os
-import secrets, hashlib, binascii
+import hashlib
 import socket
 import sys
-import subprocess
 
 def dehash():
     #OJO: cambiar directorio para probar
