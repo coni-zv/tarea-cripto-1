@@ -1,8 +1,5 @@
 # CLIENTE
 
-#!/usr/bin/python
-# -*- coding: cp932 -*-
-
 from time import *
 import os
 import hashlib
