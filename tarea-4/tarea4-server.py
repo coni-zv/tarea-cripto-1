@@ -2,8 +2,6 @@
 from time import *
 import os
 import socket
-import sys
-import socket
 import sqlite3
 
 def decrypt():

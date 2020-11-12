@@ -4,7 +4,6 @@ from time import *
 import os
 import hashlib
 import socket
-import sys
 
 def dehash():
     #OJO: cambiar directorio para probar
