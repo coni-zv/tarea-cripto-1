@@ -19,14 +19,13 @@ login = load_vals("login.txt")
 imap_host = 'imap.gmail.com'
 imap_user = login[0]
 imap_pass = login[1]
-print("Iniciaste sesion")
 
 # conectar al host usando SSL
 imap = imaplib.IMAP4_SSL(imap_host)
 
 ## login al server
 imap.login(imap_user, imap_pass)
-
+print("Iniciaste sesion")
 imap.select('Inbox')
 
 status, response =  imap.search(None, 'FROM',sender, '(SINCE "'+date+'")')
