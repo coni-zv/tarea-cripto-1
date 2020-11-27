@@ -1,1 +1,0 @@
-"no-reply@duolingo.com",[0-9a-f]{16}\-[0-9a-f]{8}\-[0-9a-f]{4}\-[0-9a-f]{4}\-[0-9a-f]{4}\-[0-9a-f]{12}\-000000@email\.amazonses\.com,3-Apr-2019
