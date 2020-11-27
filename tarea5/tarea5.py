@@ -31,6 +31,7 @@ imap.select('Inbox')
 
 status, response =  imap.search(None, 'FROM',sender, '(SINCE "'+date+'")')
 
+print("regex: ",regex)
 matches = 0
 falsos = 0
 for num in response[0].split():
